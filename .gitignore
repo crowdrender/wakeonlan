@@ -1,0 +1,17 @@
+
+# MacOS Desktop Services Store files should be ignored 
+**/.DS_store
+
+#don't commit byte compiled code or the pycache folders
+**/__pycache__
+**/*.pyc
+
+#any dependencies should be kept out of the repo
+**/lib
+
+# Setuptools distribution folder.
+/dist/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+
