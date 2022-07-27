@@ -2,7 +2,7 @@
 A Simple command line utiltiy for waking hosts on a local network. Wakeonlan is written in python and can be installed using pip.
 
 # Installation
-First clone the repository, then open a shell terminal and cd to the location of the repository directory, then run...
+First clone the repository, then open a shell terminal and cd to the location of the repository's parent directory, then run...
 
 ```bash
 $ python3 -m pip install wakeonlan
@@ -25,10 +25,10 @@ en0
 Interface to be used is: en0, broadcast addr: 192.168.1.255
 
 ```
-Basically the utiltity will ask you for the MAC address of the host. Whichever machine you are on that is running the utility needs to be connected 
-to the same network. Use the MAC address on the host that maps to that network if it has more than one netowrk connection. 
+The utiltity will first ask you for the MAC address of the host. Whichever machine you are on that is running the utility needs to be connected 
+to the same network as the host you want to wake. Use the MAC address on the host that maps to that network if it has more than one netowrk connection. 
 
-The utilitiy will ask you for the netowrk interface you want to use. As demonstrated above, your machine may have several. Make sure you 
+The utilitiy will then ask you for the netowrk interface you want to use. As demonstrated above, your machine may have several. Make sure you 
 know which one you are connected to the host on.
 
 # Caveats
