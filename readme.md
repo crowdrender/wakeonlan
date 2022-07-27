@@ -12,7 +12,7 @@ to install the wakeonlan command.
 
 # Usage
 ```bash
-$ wakeonlan
+$ wol
 Enter the mac address of the computer to wake, e.g. '12:34:56:78:9a:bc'
 > '<enter mac address of the host here>
 
