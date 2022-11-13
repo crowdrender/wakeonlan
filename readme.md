@@ -5,7 +5,7 @@ A Simple command line utiltiy for waking hosts on a local network. Wakeonlan is 
 First clone the repository, then open a shell terminal and cd to the location of the repository's parent directory, then run...
 
 ```bash
-$ python3 -m pip install wakeonlan
+python3 -m pip install wakeonlan
 
 ```
 to install the wakeonlan command. 
